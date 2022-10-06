@@ -1,0 +1,19 @@
+html {
+	--lena: 1.5;
+}
+
+.el {
+width: calc(100% / 3);
+}
+
+.el1 {
+	transform: rotate(calc(3turn - 90deg));
+}
+
+.font {
+font-size: calc(3vw + 20px);
+}
+
+.el2 {
+padding: calc(var(--lena) * 2rem);
+}

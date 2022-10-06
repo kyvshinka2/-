@@ -1,0 +1,41 @@
+@media (max-width: 685) {
+	.container {
+		width: var(--somevar);
+		height: var(--somevar);
+	}
+	.tr 
+	{
+		width: calc(100% / 2);
+	}
+	.tx {
+		font-size: 12;
+	}
+	.menu {
+	width: 75%;
+	height: auto;
+	padding-top: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 10px;
+	border: 10px solid none;
+	margin: auto;
+	background: white
+    }
+    .linia {
+    	
+    }
+}
+
+.fon {
+	background: #ccffff;
+}
+
+
+
+
+@media screen and (max-width: 850px) {
+	.container {
+		width: 200px;
+	}
+}
+
